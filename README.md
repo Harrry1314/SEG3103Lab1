@@ -1,3 +1,6 @@
+Haochu Chen
+300067058
+
 To run the Java program (in `newmath_java`), first I compile it
 
 ```bash
