@@ -3,7 +3,7 @@ Haochu Chen
 
 
 
-!(lab2_img/testcase.png)
+![testcase](lab2_img/testcase.png)
 
 
 ### JUnit
