@@ -15,10 +15,7 @@ defmodule Grades.Calculator do
 
     avg_exams = (midterm + final) / 2
 
-    num_labs =
-      labs
-      |> Enum.reject(fn mark -> mark < 0.25 end)
-      |> Enum.count()
+    num_labs = get_num_labs(labs)
 
     if failed_to_participate?(avg_homework, avg_exams, num_labs) do
       "EIN"
@@ -48,10 +45,7 @@ defmodule Grades.Calculator do
 
     avg_exams = (midterm + final) / 2
 
-    num_labs =
-      labs
-      |> Enum.reject(fn mark -> mark < 0.25 end)
-      |> Enum.count()
+    num_labs = get_num_labs(labs)
 
     if failed_to_participate?(avg_homework, avg_exams, num_labs) do
       0
@@ -89,5 +83,10 @@ defmodule Grades.Calculator do
   end
   def calculate_grade(avg_labs, avg_homework, midterm, final) do
 	0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
+  end
+  def get_num_labs(labs) do
+	labs
+      |> Enum.reject(fn mark -> mark < 0.25 end)
+      |> Enum.count()
   end
 end
