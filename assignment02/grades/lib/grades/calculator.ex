@@ -13,7 +13,7 @@ defmodule Grades.Calculator do
 
     avg_labs = avg(labs)
 
-    avg_exams = (midterm + final) / 2
+    avg_exams = calculate_avg_exams(midterm, final)
 
     num_labs = get_num_labs(labs)
 
@@ -43,7 +43,7 @@ defmodule Grades.Calculator do
 
     avg_labs = avg(labs)
 
-    avg_exams = (midterm + final) / 2
+    avg_exams = calculate_avg_exams(midterm, final)
 
     num_labs = get_num_labs(labs)
 
@@ -88,5 +88,8 @@ defmodule Grades.Calculator do
 	labs
       |> Enum.reject(fn mark -> mark < 0.25 end)
       |> Enum.count()
+  end
+  def calculate_avg_exams(midterm, final) do
+	(midterm + final) / 2
   end
 end
