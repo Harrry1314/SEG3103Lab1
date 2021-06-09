@@ -34,6 +34,8 @@ class CalculatorTest
 		assertEquals(2, cal.divide(2, 1));
 		assertEquals(5, cal.divide(50, 10));
 		assertEquals(200, cal.divide(400, 2));
+		
+		assertEquals("Illegal Arguments", cal.divide(5, 0));
 	}
 
 }
