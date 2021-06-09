@@ -31,3 +31,10 @@ Then I did some refactoring, added a calculate method and put all calculations i
 And the tests still pass:
 ![still_pass](img/still_pass.png)
 
+
+===============================================================================
+
+Here are the screenshots that I compiled and ran tests of the elixir tic and fizzbuzz:
+![tic](img/tic.png)
+![fizzbuzz](img/fizzbuzz.png)
+
