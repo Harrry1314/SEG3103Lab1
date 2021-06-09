@@ -15,9 +15,16 @@ public class Calculator
 	{
 		return (a*b);
 	}
-	public int divide(int a, int b)
+	public Object divide(int a, int b)
 	{
-		return a/b;
+		if(b==0)
+		{
+			return "Illegal Arguments";
+		}
+		else
+		{
+			return a/b;
+		}
 	}
 
 }
