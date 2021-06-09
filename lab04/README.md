@@ -31,6 +31,9 @@ Then I did some refactoring, added a calculate method and put all calculations i
 And the tests still pass:
 ![still_pass](img/still_pass.png)
 
+Here is the github commit history:
+![git](img/git.png)
+
 
 ===============================================================================
 
