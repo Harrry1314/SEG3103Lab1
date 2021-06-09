@@ -38,3 +38,7 @@ Here are the screenshots that I compiled and ran tests of the elixir tic and fiz
 ![tic](img/tic.png)
 ![fizzbuzz](img/fizzbuzz.png)
 
+
+
+Thanks for your time.
+
