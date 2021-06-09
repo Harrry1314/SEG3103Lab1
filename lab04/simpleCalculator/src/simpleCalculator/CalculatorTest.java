@@ -24,14 +24,14 @@ class CalculatorTest
 	@Test
 	public void times_test()
 	{
-		assertEquals(1, cal.minus(1, 1));
-		assertEquals(10, cal.minus(2, 5));
-		assertEquals(20, cal.minus(4, 5));
+		assertEquals(1, cal.times(1, 1));
+		assertEquals(10, cal.times(2, 5));
+		assertEquals(20, cal.times(4, 5));
 	}
 	@Test
 	public void divide_test()
 	{
-		assertEquals(1, cal.divide(2, 1));
+		assertEquals(2, cal.divide(2, 1));
 		assertEquals(5, cal.divide(50, 10));
 		assertEquals(200, cal.divide(400, 2));
 	}
