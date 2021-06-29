@@ -3,5 +3,5 @@ Haochu Chen
 
 Images of stubbed code
 
-!stub(img/stub.png)
+[!stub(img/stub.png)]
 
