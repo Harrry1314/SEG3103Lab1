@@ -7,7 +7,7 @@ Output of "mvn -v"
 Output of "mvn compile"
 ![mvncomp](img/mvncomp.png)
 
-Output of "mvn package -DskipTests"
+Output of "mvn package -DskipTests" \n
 It packages all project files into one jar file, so that we can easily run it.
 ![mvndskip](img/mvndskip.png)
 
