@@ -52,7 +52,7 @@ class ExampleSeleniumTest {
     server.destroy();
   }
 
-  /*
+  
   @Test
   void test1() {
     WebElement element = driver.findElement(By.id("title"));
@@ -76,14 +76,26 @@ class ExampleSeleniumTest {
     actual = welcome.getText();
     assertEquals(expected, getWords(actual)[0]);
   }
-  */
   
+  /*
   @Test
   public void myTest()
   {
 	  driver.get("http://localhost:8080/admin");
 	  WebElement username=driver.findElement(By.id("loginId"));
+	  username.sendKeys("admin");
+	  
+	  WebElement pwd=driver.findElement(By.id("loginPasswd"));
+	  pwd.sendKeys("password");
+	  
+	  WebElement loginBt=driver.findElement(By.id("loginBtn"));
+	  loginBt.click();
+	  
+	  String expectedUrl="http://localhost:8080/admin";
+	  String currentUrl=driver.getCurrentUrl();
+	  assertEquals(expectedUrl, currentUrl);
   }
+  */
 
   private String[] getWords(String s) {
     return s.split("\\s+");
