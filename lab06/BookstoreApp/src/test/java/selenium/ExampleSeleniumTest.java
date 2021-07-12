@@ -52,7 +52,7 @@ class ExampleSeleniumTest {
     server.destroy();
   }
 
-  
+  /*
   @Test
   void test1() {
     WebElement element = driver.findElement(By.id("title"));
@@ -76,8 +76,8 @@ class ExampleSeleniumTest {
     actual = welcome.getText();
     assertEquals(expected, getWords(actual)[0]);
   }
-  
-  /*
+  */
+ 
   @Test
   public void myTest()
   {
@@ -95,7 +95,7 @@ class ExampleSeleniumTest {
 	  String currentUrl=driver.getCurrentUrl();
 	  assertEquals(expectedUrl, currentUrl);
   }
-  */
+
 
   private String[] getWords(String s) {
     return s.split("\\s+");
