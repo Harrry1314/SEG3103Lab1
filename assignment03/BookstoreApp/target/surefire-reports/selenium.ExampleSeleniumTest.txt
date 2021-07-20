@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: selenium.ExampleSeleniumTest
+-------------------------------------------------------------------------------
+Tests run: 41, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 114.632 s <<< FAILURE! - in selenium.ExampleSeleniumTest
+uc92Test  Time elapsed: 1.453 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <$0.00> but was: <$10.00>
+	at selenium.ExampleSeleniumTest.uc92Test(ExampleSeleniumTest.java:989)
+
+f6NTest  Time elapsed: 1.443 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <$0.00> but was: <$10.00>
+	at selenium.ExampleSeleniumTest.f6NTest(ExampleSeleniumTest.java:372)
+
