@@ -8,9 +8,6 @@ Application:
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
 Code changed is in /calculator
 <br/>
 <br/>
