@@ -1,18 +1,17 @@
 Haochu Chen
 300067058
 
-Application:  
-  
-  
-  
-  
-  
+Application:
 ![calculator](img/calculator.png)
 
 Code changed is in /calculator
 
 Analysis:
-
+&NewLine;
+&NewLine;
+&NewLine;
+&NewLine;
+&NewLine;
 ![equals](img/equals.png)
 “==” cannot be used to compare two strings, “==” is used to compare the memory address of two strings, “equals()” should be used here.
   
