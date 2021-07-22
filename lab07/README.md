@@ -1,4 +1,9 @@
 Haochu Chen
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 300067058
 
 Application:
@@ -6,17 +11,8 @@ Application:
 
 Code changed is in /calculator
 
-Analysis:  
-&NewLine;
-&NewLine;
-&NewLine;
-&NewLine;
-&NewLine;
-</br>
-</br>
-</br>
-</br>
-</br>
+Analysis:
+
 ![equals](img/equals.png)
 “==” cannot be used to compare two strings, “==” is used to compare the memory address of two strings, “equals()” should be used here.
   
