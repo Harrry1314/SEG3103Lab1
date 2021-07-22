@@ -12,6 +12,11 @@ Analysis:
 &NewLine;
 &NewLine;
 &NewLine;
+</br>
+</br>
+</br>
+</br>
+</br>
 ![equals](img/equals.png)
 “==” cannot be used to compare two strings, “==” is used to compare the memory address of two strings, “equals()” should be used here.
   
