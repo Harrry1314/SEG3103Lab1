@@ -6,7 +6,7 @@ Application:
 
 Code changed is in /calculator
 
-Analysis:
+Analysis:  
 &NewLine;
 &NewLine;
 &NewLine;
