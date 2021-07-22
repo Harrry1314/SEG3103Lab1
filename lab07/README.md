@@ -10,12 +10,9 @@ Analysis:
 
 ![equals](img/equals.png)  
 “==” cannot be used to compare two strings, “==” is used to compare the memory address of two strings, “equals()” should be used here.  
-
-
-
-
-
-
+  
+  
+  
 ![swing](img/swing.png)  
 “setVisible()” will cause the events dispatching on components in muti-threads of JFrame. These threads are asynchronized, so it may cause some problems, like deadlock. So I put it into a swing thread.  
 
