@@ -7,6 +7,10 @@ Application:
 ![calculator](img/calculator.png)
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 Code changed is in /calculator
 <br/>
 <br/>
